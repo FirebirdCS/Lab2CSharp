@@ -1,9 +1,9 @@
 ﻿using Lab2.Edu.Kinal.Lab.Entities;
-public class Sistema
+public class Program
 {
+    private static List<Persona> listaPersonas = new List<Persona>();
     public static void Main(string[] args)
     {
-        List<Persona> listaPersonas = new List<Persona>();
         Persona alumno1 = new Alumno("4580K", "Flores", "Alvaro", "alvaro@gmail.com", "2016579", 50, "Idioma");
         Persona alumno2 = new Alumno("4580K", "Flores", "Alvaro", "alvaro@gmail.com", "2016482", 20, "Ciencias");
         Persona profesor1 = new Profesor("4580J", "Flores", "Alvaro", "alvaro@gmail.com", "3020151910101", "Profesor de ciencias");
@@ -11,7 +11,10 @@ public class Sistema
         listaPersonas.Add(alumno1);
         listaPersonas.Add(alumno2);
         listaPersonas.Add(profesor1);
-        QuitarAsignatura(listaPersonas);
+        listaGeneral(listaPersonas);
+        registrarAsistencia(listaPersonas);
+        listarMisDatos(listaPersonas);
+        quitarAsignatura(listaPersonas);
     }
 
 
@@ -30,7 +33,7 @@ public class Sistema
         }
     }
 
-    static void QuitarAsignatura(List<Persona> personas)
+    static void quitarAsignatura(List<Persona> personas)
     {
         foreach (Persona elemento in personas)
         {
@@ -40,7 +43,7 @@ public class Sistema
             }
         }
     }
-    static void ListaGeneral(List<Persona> personas)
+    static void listaGeneral(List<Persona> personas)
     {
         Console.WriteLine($"Información General");
         foreach (Persona elemento in personas)
@@ -55,7 +58,7 @@ public class Sistema
             }
         }
     }
-    static void RegistrarAsistencia(List<Persona> personas)
+    static void registrarAsistencia(List<Persona> personas)
     {
         foreach (Persona elemento in personas)
         {
