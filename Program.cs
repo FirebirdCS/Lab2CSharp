@@ -43,6 +43,11 @@ public class Program
             }
         }
     }
+
+    static void operarRegistro(Persona elemento)
+    {
+        listaPersonas.Add(elemento);
+    }
     static void listaGeneral(List<Persona> personas)
     {
         Console.WriteLine($"Información General");
