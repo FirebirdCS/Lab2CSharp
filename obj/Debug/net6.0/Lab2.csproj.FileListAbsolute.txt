@@ -1,0 +1,15 @@
+C:\git\.NET Curso\backend\prod\Lab2\bin\Debug\net6.0\Lab2.exe
+C:\git\.NET Curso\backend\prod\Lab2\bin\Debug\net6.0\Lab2.deps.json
+C:\git\.NET Curso\backend\prod\Lab2\bin\Debug\net6.0\Lab2.runtimeconfig.json
+C:\git\.NET Curso\backend\prod\Lab2\bin\Debug\net6.0\Lab2.dll
+C:\git\.NET Curso\backend\prod\Lab2\bin\Debug\net6.0\ref\Lab2.dll
+C:\git\.NET Curso\backend\prod\Lab2\bin\Debug\net6.0\Lab2.pdb
+C:\git\.NET Curso\backend\prod\Lab2\obj\Debug\net6.0\Lab2.csproj.AssemblyReference.cache
+C:\git\.NET Curso\backend\prod\Lab2\obj\Debug\net6.0\Lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\.NET Curso\backend\prod\Lab2\obj\Debug\net6.0\Lab2.AssemblyInfoInputs.cache
+C:\git\.NET Curso\backend\prod\Lab2\obj\Debug\net6.0\Lab2.AssemblyInfo.cs
+C:\git\.NET Curso\backend\prod\Lab2\obj\Debug\net6.0\Lab2.csproj.CoreCompileInputs.cache
+C:\git\.NET Curso\backend\prod\Lab2\obj\Debug\net6.0\Lab2.dll
+C:\git\.NET Curso\backend\prod\Lab2\obj\Debug\net6.0\ref\Lab2.dll
+C:\git\.NET Curso\backend\prod\Lab2\obj\Debug\net6.0\Lab2.pdb
+C:\git\.NET Curso\backend\prod\Lab2\obj\Debug\net6.0\Lab2.genruntimeconfig.cache
