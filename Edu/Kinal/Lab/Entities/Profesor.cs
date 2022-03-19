@@ -23,32 +23,14 @@ namespace Lab2.Edu.Kinal.Lab.Entities
 
         public bool eliminarAsignatura(string asignatura)
         {
-            if ("Idioma" == this.Cargo)
-            {
-                string viejoCargo = Cargo;
-                this.Cargo = "";
-                Console.WriteLine($"El profesor {this.Nombres} ya no tiene el cargo " + viejoCargo);
-                return true;
-            }
-            else
-            {
-                Console.WriteLine($"Esta asignatura no existe");
-                return false;
-            }
+            Console.WriteLine($"Se ha eliminado la asignatura de " + asignatura + $" del profesor {this.Apellidos} {this.Nombres}");
+            return true;
         }
 
 
         public void listarMisDatos(string identificador)
         {
-            string cuiEncontrado = identificador;
-            if (this.CUI == cuiEncontrado)
-            {
-                Console.WriteLine($"El profesor {this.Nombres} {this.Apellidos} con carné {this.CUI} y con cargo {this.Cargo}");
-            }
-            else
-            {
-                Console.WriteLine("Este profesor no existe");
-            }
+            Console.WriteLine($" El profesor con CUI {this.CUI}, apellidos, {this.Apellidos}, nombres, {this.Nombres}, y con cargo {this.Cargo}");
         }
 
         public override void TomarAsistencia()

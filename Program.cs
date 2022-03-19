@@ -19,7 +19,7 @@ public class Program
         /* Registrar la asistencia */
         registrarAsistencia(alumno2);
         /* Eliminar asignatura */
-        quitarAsignatura(alumno1, "Idioma");
+        quitarAsignatura(profesor1, "Idioma");
         /* Lista general de las personas */
         Console.WriteLine("Las personas dentro de la universidad son las siguientes: ");
         listaGeneral(listaPersonas);
